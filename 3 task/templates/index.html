@@ -1,0 +1,32 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій перший веб-сайт</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Вивід програми на веб-сторінці</h1>
+        <p>{{ output }}</p>
+
+        <section class="netflix-section">
+            <h2>Netflix</h2>
+            <p>Netflix - це популярна платформа для стрімінгу відео контенту.</p>
+        </section>
+
+        <section class="netflix-originals-section">
+            <h2>Netflix Originals</h2>
+            <p>Netflix Originals - унікальний контент, який доступний тільки на Netflix.</p>
+        </section>
+
+        <section class="netflix-movies-section">
+            <h2>Netflix Movies</h2>
+            <p>Великий вибір фільмів для перегляду на Netflix.</p>
+        </section>
+    </div>
+</body>
+</html>
