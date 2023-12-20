@@ -105,7 +105,8 @@ for name, me in all_names.items():
     {"<*>"*20}""")
 
 # Вивід кількості створених імен
-print(f"We are done. We created {MyName.total_names} names!")```
+print(f"We are done. We created {MyName.total_names} names!")
+```
 
 цей код видав мені такий результат
 >*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<
@@ -138,19 +139,22 @@ We are done. We created 8 names!
 ### 3 Я зрозумів за що відповідає кожний з рядків представленого коду
 ### 4 Я замінив рядок коду в файлі main.py, щоб вписати своє ім'я
 ```python
-names = ("Bohdan", "Marta", "Andriy Balii", None)```
+names = ("Bohdan", "Marta", "Andriy Balii", None)
+```
 ### 
 ### 5 об'єкт Anonymus з'являється через ось цю строку коду
 ```python
 self.name = name if name is not None else self.anonymous_user().name
 ```
-### Для зміни привітання на якесь інше потрібно створити кастомне привітання
+Для зміни привітання на якесь інше потрібно створити кастомне привітання
 ```python
-custom_greeting = MyName.say_hello("Hello, this is a customized greeting!")```
+custom_greeting = MyName.say_hello("Hello, this is a customized greeting!")
+```
 
-### для третього завдання потрібно дописати функцію 
+для третього завдання потрібно дописати функцію 
 ```python
     def count_letters(self):
         """Метод для підрахунку кількості букв в імені"""
-        return len(self.name)```
+        return len(self.name)
+        ```
     
